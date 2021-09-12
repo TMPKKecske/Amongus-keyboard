@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "amongus keyboard/1.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "6.0.0-preview.7.21377.19"
+        },
+        "runtime": {
+          "amongus keyboard.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0-preview.7.21377.19": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0-preview.7.21377.19": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0-preview.7.21377.19"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          },
+          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0-preview.7.21377.19": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0-preview.7.21377.19"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.37719"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "amongus keyboard/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0-preview.7.21377.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XBFkiUknrBpaNkQmC2pvA8pbcg44hOvSLPtiaqZEAuJVDVPmRJ8+UUr4XqYL2Due9jThdXMB8IDg3Wan51nuhg==",
+      "path": "microsoft.win32.systemevents/6.0.0-preview.7.21377.19",
+      "hashPath": "microsoft.win32.systemevents.6.0.0-preview.7.21377.19.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0-preview.7.21377.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g4YAPvv+Zk44FXd29gQ0OZ9wl9IjSZmSXR34PEifviDmgQXLYSImsc1wm/OZkX7MCcqYro6WTcjJCkzJfBu61w==",
+      "path": "system.drawing.common/6.0.0-preview.7.21377.19",
+      "hashPath": "system.drawing.common.6.0.0-preview.7.21377.19.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0-preview.7.21377.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FdEKoDnrJ3SQgRhyRX3xRVbZ9cJQCQwYbIg8j8wu9NVxDiqBDseZEiFdXxm59bT/T3xP0V0Oc8B6bGb2+9/ixA==",
+      "path": "system.windows.extensions/6.0.0-preview.7.21377.19",
+      "hashPath": "system.windows.extensions.6.0.0-preview.7.21377.19.nupkg.sha512"
+    }
+  }
+}
